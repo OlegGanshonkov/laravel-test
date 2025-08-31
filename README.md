@@ -2,6 +2,8 @@
 
 ### Quick Deployment
 ```
+sudo apt update
+sudo apt install -y docker.io docker-compose git
 git clone https://github.com/OlegGanshonkov/laravel-test
 cd laravel-test
 chmod +x deploy.sh
